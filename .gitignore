@@ -1,0 +1,90 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Django
+# =========================
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+
+# Django media & static (optional depending on setup)
+media/
+staticfiles/
+
+# =========================
+# Environment variables & secrets
+# =========================
+.env
+.env.*
+*.env
+secrets.json
+
+# API keys / private config
+config.py
+local_settings.py
+
+# =========================
+# Pickle / ML model files
+# =========================
+*.pkl
+*.pickle
+*.joblib
+models/
+artifacts/
+
+# If you store large datasets
+*.csv
+*.tsv
+*.xlsx
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing & coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Node (if frontend used)
+# =========================
+node_modules/
+dist/
+build/
+
+# =========================
+# Deployment
+# =========================
+*.sqlite3
+gunicorn.pid
